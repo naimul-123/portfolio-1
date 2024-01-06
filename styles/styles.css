@@ -1,0 +1,287 @@
+*, *::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* Reusable styles */
+.text-primary{
+    color:#FD6E0A
+}
+.btn{
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 35px 19px 36px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color:#fff;
+    border: 2px solid #FD6E0A;
+}
+
+.btn:hover{
+    color:#FD6E0A;
+    background-color:#fff;
+    border: 2px solid #FD6E0A;
+}
+
+.header, .footer{
+    max-width: 1600px;
+    background-color: #FFF8F3;
+    margin: 0 auto;
+    padding: auto;
+}
+
+.header{
+    background-image: url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.header-top{
+padding: 51px 230px 27px 226px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+}
+
+.logo-text{
+
+font-size: 45px;
+font-weight: 800;
+line-height: 61px;
+}
+.logo-text span{
+color:#FD6E0A;
+font-family: Manrope;
+
+}
+.nav-area{
+    display: flex;  
+    align-items: center;
+}
+.header-menu{
+    margin-right: 10px;
+}
+.header-menu li{
+    display: inline;
+    margin-right: 50px;
+}
+ a{
+    text-decoration: none;
+    color:#474747
+}
+
+.hero-area{
+    padding: 0px 38px 0px 230px;
+    display: flex;
+    gap: 160px;
+    align-items:center;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    
+}
+.hero-content-area{
+    width: 584px;
+}
+.hero-grittings{
+ 
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+    color:#474747
+
+}
+.hero-title{
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+    margin: 0;
+
+}
+.hero-desc{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.hero-picture{
+    width: 584px;
+    height: 676px;
+   
+}
+.hero-btn-area{
+    margin-top: 30px;
+}
+.hero-btn-area>button{
+    margin-right: 30px;
+}
+
+/* main section style */
+main section{
+    max-width: 1140px;
+    width: 1140px;
+    margin: 115px auto;
+    text-align: center;
+}
+
+main section h3{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #181818;
+}
+
+main section h4{
+    font-weight: 400;
+}
+
+main section p{
+    font-size: 18px;  
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+/* about section style */
+.about{
+    height: 550px;
+    padding: 130px 155px;
+    background-color: #FFF8F3;
+}
+
+.info-desc{
+font-weight: 700;
+}
+
+.info-container{
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+    justify-content: space-between;
+    
+}
+
+.what-desc{
+    margin:30px 115px;
+}
+.skills-container{
+    display: flex;
+    text-align: left;
+    gap: 24px;
+    justify-content: space-around;
+}
+
+.skills{
+    padding: 30px 33px;
+    box-shadow: 0px 6px 50px 0px #0000000F;
+    
+
+}
+
+.skills h3{
+
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+}
+
+.skills p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+
+.resume-summary{
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+    text-align: left;
+    padding-top: 130px;
+}
+.resume-header{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+
+   
+}
+.resume-desc{
+    padding: 30px 0;
+}
+.resume-title{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #474747;
+}
+.resume-title-info{
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #757575;
+}
+.resume-title-desc{
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+color: #757575;
+
+}
+.footer{
+    padding: 130px 230px;
+}
+
+.contact{
+   display: flex; 
+   gap: 115px;
+   justify-content: space-around;
+}
+.contact-header{
+
+font-size: 35px;
+font-weight: 700;
+line-height: 48px;
+color: #181818;
+}
+.contact-desc{
+    padding: 20px 0;
+}
+.social{
+    display: flex;
+    justify-content: left;
+    gap: 24px;
+}
+.message-area{
+    min-width: 50%;
+}
+.input-area{
+    width: 100%;
+    display: block;
+    min-height: 64px;
+    padding: 18px 30px;
+    margin: 20px 0;
+    border: none;
+    outline:none;
+    border-radius: 5px;
+}
+.input-area:focus{
+    
+    outline:2px solid #fd3b0a;
+}
+.input-area:hover{
+    outline:2px solid #fd3b0a;
+}
+textarea{
+    resize: none;
+}
+
+
